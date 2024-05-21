@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "declaration": false,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "ES5",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "lib": [
+            "ES2018",
+            "DOM"
+        ]
+    },
+    "include": [
+        "./src/*.ts"
+    ]
+}
